@@ -1,0 +1,60 @@
+/* Apply styling to the contact page container */
+.contact {
+    background-color: fuchsia;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Style the title */
+.contact h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the description */
+.contact p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Style the contact form container */
+.contact-form {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style form labels */
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Style form inputs and text area */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+.contact-form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+.contact-form button:hover {
+    background-color: #0056b3;
+}
