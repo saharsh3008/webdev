@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 body {
     background-image: url("https://d3nn873nee648n.cloudfront.net/900x600/19577/220-SM943858.jpg");
     background-repeat: no-repeat;
@@ -13,7 +14,6 @@ body {
 }
 
 .container {
-background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -26,6 +26,9 @@ background-color: white;
 }
 
 h2 {
+    font-size: 50px;
+    color: yellow;
+    font-family: Satisfy;
     margin: 0;
     padding: 0;
 }
@@ -60,7 +63,10 @@ h2 {
     background-color: #005bb7;
 }
 
+#abcd{ background-color: yellow;}
+
 p {
+    color: yellow;
     margin-top: 10px;
     font-size: 14px;
 }
