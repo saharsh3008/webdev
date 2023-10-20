@@ -1,15 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 /* Apply styling to the contact page container */
 .contact {
-    background-color: fuchsia;
+    
     padding: 40px;
     text-align: center;
 }
 
 /* Style the title */
 .contact h2 {
-    font-size: 24px;
-    color: #333;
+    font-size: 100px;
+    color: rgb(255, 238, 0);
     margin-bottom: 20px;
+    font-family: Satisfy;
 }
 
 /* Style the description */
@@ -28,6 +30,7 @@
 
 /* Style form labels */
 .contact-form label {
+    color:rgb(255, 238, 0) ;
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
@@ -46,8 +49,8 @@
 
 /* Style the submit button */
 .contact-form button {
-    background-color: #007BFF;
-    color: #fff;
+    background-color:rgb(255, 238, 0);
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -58,3 +61,5 @@
 .contact-form button:hover {
     background-color: #0056b3;
 }
+
+
