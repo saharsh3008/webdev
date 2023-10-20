@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 body {
     background-image: url("https://d3nn873nee648n.cloudfront.net/900x600/18543/220-SM836812.jpg");
     background-repeat: no-repeat;
@@ -13,8 +14,12 @@ body {
     height: 100vh;
 }
 
+#abc{ background-color: yellow;
+}   
+
+
 .container {
-    background-color: #fff;
+    
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -26,7 +31,10 @@ body {
     padding: 20px;
 }
 
-h2 {
+h2{
+    color: yellow;
+    font-family: Satisfy;
+    font-size: 50px;
     margin: 0;
     padding: 0;
 }
@@ -62,6 +70,7 @@ h2 {
 }
 
 p {
+    color: yellow;
     margin-top: 10px;
     font-size: 14px;
 }
@@ -74,3 +83,4 @@ p a {
 p a:hover {
     text-decoration: underline;
 }
+
