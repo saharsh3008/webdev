@@ -230,11 +230,10 @@ body {
 }
 
 .world-cup-scheme {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlnY8CsO9YV8qpcZIOh_jdcPUYhouXuU8Opw&usqp=CAU");
-  background-size: cover;
+  font-family: barlow;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #fff;
+  background-color: #ccc;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -245,11 +244,13 @@ body {
 }
 
 h2 {
+  font-family: barlow;
   font-size: 24px;
   margin: 0;
 }
 
 p {
+  font-family: barlow;
   font-size: 16px;
   color: #777;
 }
@@ -276,7 +277,7 @@ ul {
 
 .scheme-pricing p {
   font-size: 18px;
-  color: #0073e6;
+  color: red;
 }
 
 .button {
